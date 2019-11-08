@@ -1,0 +1,10 @@
+<mat-dialog-content>
+
+<p> {{data}} </p>
+<p>{{timerInt}} seconds!</p>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button class="mat-button" (click)="onCloseConfirm()">Keep Logged In</button>
+    <button class="mat-button" (click)="onCloseCancel()">Logout</button>
+</mat-dialog-actions>
